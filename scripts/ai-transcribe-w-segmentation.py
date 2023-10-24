@@ -64,7 +64,7 @@ import concurrent.futures as cf
 # ...............
 
 # Enter your HuggingFace (HF) pyannote token (model publicly available via HF but token required -- see https://huggingface.co/pyannote/speaker-segmentation for details)
-pipeline = Pipeline.from_pretrained("pyannote/speaker-segmentation", use_auth_token="ADD_YOUR_TOKEN_HERE")
+pipeline = Pipeline.from_pretrained("pyannote/speaker-segmentation", use_auth_token="AUTH_TOKEN_HERE")
 
 # Choose the whisper model version to run (tiny, base, small, medium, and large -- see https://github.com/openai/whisper for details)
 model = whisper.load_model("large")

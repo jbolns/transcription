@@ -1,0 +1,9 @@
+==============================================================================
+==  NOTICE file for GH repository: https://github.com/jbolns/transcription  ==
+==============================================================================
+
+Copyright 2023 Jose A Bolanos / Polyzentrik.com.
+
+Attribution is required. It must be explicit and visible to final users.
+
+Attribution must not intentionally or unintentionally suggest the copyright holder(s) approve or disaprove of any derivative work.

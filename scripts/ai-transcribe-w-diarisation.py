@@ -63,7 +63,7 @@ import whisper
 # ----
 
 # Enter your HuggingFace (HF) pyannote token (model publicly available via HF but token required -- see https://huggingface.co/pyannote/speaker-segmentation for details)
-pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization@2.1", use_auth_token="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")
+pipeline = Pipeline.from_pretrained("pyannote/speaker-diarization@2.1", use_auth_token="AUTH_TOKEN_HERE")
 
 # Choose the whisper model version to run (tiny, base, small, medium, and large -- see https://github.com/openai/whisper for details)
 model = whisper.load_model("large")
